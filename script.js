@@ -69,9 +69,11 @@ function showQuestion()
         if(answer.correct){
             button.dataset.correct = answer.correct;
         }
-        button.addEventListener("click", selectAnswer);
+        button.addEventListener("click", selectAnswer); 
 
     });
+
+    
 
     if (currentQuestionIndex === 0) {
         backButton.style.display = "none";
